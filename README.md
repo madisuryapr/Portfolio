@@ -4,10 +4,10 @@ Furthermore, this folder compiles projects regarding Data Science & Analytics, E
 Author utilizes some applications in this folder as follows:
 
 Data Science & Analytics, Econometrics:
-Python (PyCharm)
-GAUSS Light 21
-Jupyter Notebook
+- Python (PyCharm)
+- GAUSS Light 21
+- Jupyter Notebook
 
 Databases:
-SQL / PostgreSQL 13
-DataGrip 2021
+- SQL / PostgreSQL 13
+- DataGrip 2021
