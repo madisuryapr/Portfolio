@@ -12,7 +12,7 @@ Databases:
 - SQL / PostgreSQL 13
 - DataGrip 2021
 
-# Anime List
+# [Anime List](https://github.com/madisuryapr/Projects/tree/main/Anime%20List)
 PostgreSQL Project. In this project, author compiles 150 random anime series in which encompasses period of 2018 to 2021.
 Each year consists of four consecutive seasons, namely Winter, Spring, Summer, and Fall. Author compiled 8-10 anime series for each season.
 In addition, author created an unique Anime ID number to represent the anime series. For example:
