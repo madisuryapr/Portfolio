@@ -1,0 +1,462 @@
+Model 1: One Break Occurs in Level
+Debit Cards Value (ndebit)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                             -3.123
+Chosen Lags:                                               4
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                     October-2014          0.430
+==============================================================
+Cannot reject the null hypothesis of a unit root.
+
+Credit Cards Value (ncredit)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                             -3.660
+Chosen Lags:                                               1
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                         May-2019          0.837
+==============================================================
+Cannot reject the null hypothesis of a unit root.
+
+Electronic Money Value (nemoney)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                             -4.039
+Chosen Lags:                                               0
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                     January-2018          0.719
+==============================================================
+Cannot reject the null hypothesis of a unit root.
+
+Bank Indonesia Clearing System Value (nsknbi)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                             -7.127
+Chosen Lags:                                               0
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                        June-2019          0.844
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
+Bank Indonesia RTGS Value (nbirtgs)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                             -6.060
+Chosen Lags:                                               0
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                    February-2012          0.193
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
+Debit Cards Volume (vdebit)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                             -2.774
+Chosen Lags:                                               2
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                         May-2019          0.837
+==============================================================
+Cannot reject the null hypothesis of a unit root.
+
+Credit Cards Volume (vcredit)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                             -2.893
+Chosen Lags:                                               2
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                         May-2019          0.837
+==============================================================
+Cannot reject the null hypothesis of a unit root.
+
+Electronic Money Volume (vemoney)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                             -4.006
+Chosen Lags:                                               2
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                      August-2018          0.770
+==============================================================
+Cannot reject the null hypothesis of a unit root.
+
+Bank Indonesia Clearing System Volume (vsknbi)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                            -10.554
+Chosen Lags:                                               0
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                        July-2017          0.674
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
+Bank Indonesia RTGS Volume (vbirtgs)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                        Break in level 
+==============================================================
+ADF-stat:                                             -2.810
+Chosen Lags:                                               3
+
+Critical Values:
+                            1%             5%            10%
+                        -5.340         -4.800         -4.580
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                    December-2016          0.622
+==============================================================
+Cannot reject the null hypothesis of a unit root.
+
+Model 2: One Break Occurs in Both Level and Trend
+Debit Cards Value (ndebit)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                             -5.537
+Chosen Lags:                                               3
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                         May-2019          0.837
+==============================================================
+Reject the null hypothesis of a unit root at the 5% level.
+
+Credit Cards Value (ncredit)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                             -5.466
+Chosen Lags:                                               0
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                   September-2018          0.778
+==============================================================
+Reject the null hypothesis of a unit root at the 5% level.
+
+Electronic Money Value (nemoney)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                             -6.895
+Chosen Lags:                                               0
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                    December-2017          0.711
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
+Bank Indonesia Clearing System Value (nsknbi)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                             -7.848
+Chosen Lags:                                               1
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                     October-2016          0.607
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
+Bank Indonesia RTGS Value (nbirtgs)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                             -6.072
+Chosen Lags:                                               3
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                    February-2012          0.193
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
+Debit Cards Volume (vdebit)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                             -6.452
+Chosen Lags:                                               0
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                     October-2012          0.252
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
+Credit Cards Volume (vcredit)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                             -6.939
+Chosen Lags:                                               0
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                        June-2019          0.844
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
+Electronic Money Volume (vemoney)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                             -4.236
+Chosen Lags:                                               2
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                   September-2017          0.689
+==============================================================
+Cannot reject the null hypothesis of a unit root.
+
+Bank Indonesia Clearing System Volume (vsknbi)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                            -10.665
+Chosen Lags:                                               0
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                        July-2017          0.674
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
+Bank Indonesia RTGS Volume (vbirtgs)
+
+Test:                                                    ADF 
+Ho:                                                Unit root 
+Number of breaks:                                          1 
+Lag selection:                             SIC lag selection 
+Trimming rate (%):                                        15 
+Model:                                Break in level & trend 
+==============================================================
+ADF-stat:                                             -6.474
+Chosen Lags:                                               3
+
+Critical Values:
+                            1%             5%            10%
+                        -5.570         -5.080         -4.820
+==============================================================
+
+Estimated break dates:
+                                         Date       Fraction
+First break:                     October-2016          0.607
+==============================================================
+Reject the null hypothesis of a unit root at the 1% level.
+
