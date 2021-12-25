@@ -37,7 +37,7 @@ This test assumes that one-endogenous break occurs within time-series data. Ther
 - Model 1: One Break occurs in Level only, and
 - Model 2: One Break occurs in both Level and Trend.
 
-Furthermore, this structural break test hypothizes the null as "Non-stationary process (Unit Root) with one break within data", whereas alternative as
+Furthermore, this structural break test hypothizes the null as "Non-stationary process (Unit Root) within data", whereas alternative as
 "Stationary process with one break within data".
 Details regarding the model and estimation can be obtained in:
 
