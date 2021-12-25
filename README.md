@@ -55,4 +55,4 @@ Details regarding the model and estimation can be obtained in:
 
 [Narayan, P.K., & Popp, S. (2010). A new unit root test with two structural breaks in level and slope at unknown time. _Journal of Applied Statistics_, 37(9), 1425-1438.](https://www.tandfonline.com/doi/abs/10.1080/02664760903039883)
 
-[Naraya, P.K., & Popp, S. (2013). Size and power properties of structural break unit root tests. _Applied Economics_, 45(6), 721-728.](https://www.tandfonline.com/doi/abs/10.1080/00036846.2011.610752)
+[Narayan, P.K., & Popp, S. (2013). Size and power properties of structural break unit root tests. _Applied Economics_, 45(6), 721-728.](https://www.tandfonline.com/doi/abs/10.1080/00036846.2011.610752)
