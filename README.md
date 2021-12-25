@@ -31,7 +31,7 @@ Therefore, this Anime ID indicates that RE-MAIN is released in Summer 2021 on Ju
 # [ADF Structural Break Test With GAUSS Light 21](https://github.com/madisuryapr/Projects/tree/main/ADF%20Structural%20Break%20Test%20with%20GAUSS%20Light%2021)
 This directory objective is to examine the structural breaks within Indonesia's noncash payment systems dataset. By Utilizing GAUSS Light 21, the author conduct Structural Breaks Tests with ADF Approach. There are 2 (two) main literature incorporated in this test:
 
-**1. Zivot and Andrews (1992) Structural Breaks Test**
+**1. Zivot and Andrews (1992) Structural Break Test**
 
 This test assumes that one-endogenous break occurs within time-series data. There are two different models within this test:
 - Model 1: One Break occurs in Level only, and
