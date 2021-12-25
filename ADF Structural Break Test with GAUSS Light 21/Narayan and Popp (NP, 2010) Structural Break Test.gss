@@ -1,0 +1,126 @@
+                    /*********** Narayan and Popp (2010) Two-Endogenous Structural Break Test ***********/
+
+/* This Syntax is dedicated to testing structural break of 
+    Year over Year (YoY) data for Indonesia's Noncash Payment Systems, 
+    over the Period January 2010 to March 2021.
+    The data is obtained from Bank Indonesia Payment Systems Statistic */
+
+/* The author employs Narayan and Popp (2010) Two-Endogenous Structural Break Test, 
+    in which captures two structural break, either in level or level and trend.
+    The Hypotheses are as follows:
+    H0: Non-stationary process (Unit Root) of data with two structural breaks
+    H1: Stationary process of data with two structural breaks
+    Reject the null hypothesis when statistics are lower than critical value */
+
+new;
+cls;
+library tspdlib;
+
+/* Perform Full Dataset Path Creation from Directory */
+Datatest = getGAUSSHome () $+ "Practices/Data/payments_growthdata.xlsx";
+
+/* Load and Import Dataset for Testing */
+ndebit  = loadd(Datatest, "ndebit + date($period, '%Y-%m')");
+ncredit = loadd(Datatest, "ncredit + date($period, '%Y-%m')");
+nemoney = loadd(Datatest, "nemoney + date($period, '%Y-%m')");
+nsknbi  = loadd(Datatest, "nsknbi + date($period, '%Y-%m')");
+nbirtgs = loadd(Datatest, "nbirtgs + date($period, '%Y-%m')");
+vdebit  = loadd(Datatest, "vdebit + date($period, '%Y-%m')");
+vcredit = loadd(Datatest, "vcredit + date($period, '%Y-%m')");
+vemoney = loadd(Datatest, "vemoney + date($period, '%Y-%m')");
+vsknbi  = loadd(Datatest, "vsknbi + date($period, '%Y-%m')");
+vbirtgs = loadd(Datatest, "vbirtgs + date($period, '%Y-%m')");
+
+/* Transform and Set New Date Format for Corresponding Dataset */
+ndebit  = setcoldateformats(move(ndebit), "%B-%Y", "period");
+ncredit = setcoldateformats(move(ncredit), "%B-%Y", "period");
+nemoney = setcoldateformats(move(nemoney), "%B-%Y", "period");
+nsknbi  = setcoldateformats(move(nsknbi), "%B-%Y", "period");
+nbirtgs = setcoldateformats(move(nbirtgs), "%B-%Y", "period");
+vdebit  = setcoldateformats(move(vdebit), "%B-%Y", "period");
+vcredit = setcoldateformats(move(vcredit), "%B-%Y", "period");
+vemoney = setcoldateformats(move(vemoney), "%B-%Y", "period");
+vsknbi  = setcoldateformats(move(vsknbi), "%B-%Y", "period");
+vbirtgs = setcoldateformats(move(vbirtgs), "%B-%Y", "period");
+
+/* Set Test Specification for Model 1 */
+"Model 1: Two Breaks Occur in Level";
+model = 1;
+pmax = 10;
+ic = 2;
+trimm = 0.15;
+
+/* Execute Structural Break Unit Root Test for Each Variables */
+
+"Debit Cards Value (ndebit)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(ndebit, model(pmax, ic, trimm));
+
+"Credit Cards Value (ncredit)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(ncredit, model(pmax, ic, trimm));
+
+"Electronic Money Value (nemoney)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(nemoney, model(pmax, ic, trimm));
+
+"Bank Indonesia Clearing System Value (nsknbi)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(nsknbi, model(pmax, ic, trimm));
+
+"Bank Indonesia RTGS Value (nbirtgs)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(nbirtgs, model(pmax, ic, trimm));
+
+"Debit Cards Volume (vdebit)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vdebit, model(pmax, ic, trimm));
+
+"Credit Cards Volume (vcredit)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vcredit, model(pmax, ic, trimm));
+
+"Electronic Money Volume (vemoney)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vemoney, model(pmax, ic, trimm));
+
+"Bank Indonesia Clearing System Volume (vsknbi)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vsknbi, model(pmax, ic, trimm));
+
+"Bank Indonesia RTGS Volume (vbirtgs)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vbirtgs, model(pmax, ic, trimm));
+
+/* Set Test Specification for Model 2 */
+"Model 2: Two Breaks Occur in Both Level and Trend";
+model = 2;
+pmax = 10;
+ic = 2;
+trimm = 0.15;
+
+/* Execute Structural Break Unit Root Test for Each Variables */
+
+"Debit Cards Value (ndebit)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(ndebit, model(pmax, ic, trimm));
+
+"Credit Cards Value (ncredit)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(ncredit, model(pmax, ic, trimm));
+
+"Electronic Money Value (nemoney)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(nemoney, model(pmax, ic, trimm));
+
+"Bank Indonesia Clearing System Value (nsknbi)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(nsknbi, model(pmax, ic, trimm));
+
+"Bank Indonesia RTGS Value (nbirtgs)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(nbirtgs, model(pmax, ic, trimm));
+
+"Debit Cards Volume (vdebit)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vdebit, model(pmax, ic, trimm));
+
+"Credit Cards Volume (vcredit)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vcredit, model(pmax, ic, trimm));
+
+"Electronic Money Volume (vemoney)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vemoney, model(pmax, ic, trimm));
+
+"Bank Indonesia Clearing System Volume (vsknbi)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vsknbi, model(pmax, ic, trimm));
+
+"Bank Indonesia RTGS Volume (vbirtgs)";
+{ ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vbirtgs, model(pmax, ic, trimm));
+
+/* Redirect All Printed Output to a File 'NP_Test_Results.out' */
+/* If already exists, overwrite the file with 'reset' */
+output file = NP_Test_Results.out on;
