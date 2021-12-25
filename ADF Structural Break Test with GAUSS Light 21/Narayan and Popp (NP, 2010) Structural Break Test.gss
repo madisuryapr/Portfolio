@@ -122,5 +122,4 @@ trimm = 0.15;
 { ADF_min, tb1, tb2, p, cv } = ADF_2breaks(vbirtgs, model(pmax, ic, trimm));
 
 /* Redirect All Printed Output to a File 'NP_Test_Results.out' */
-/* If already exists, overwrite the file with 'reset' */
 output file = NP_Test_Results.out on;
