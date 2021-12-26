@@ -1,6 +1,6 @@
 # Projects
-This folder is dedicated to showing and storing author's projects
-Furthermore, this folder compiles projects regarding Data Science & Analytics, Econometrics Analyses, and Data Visualization
+This folder is dedicated to showing and storing author's projects. 
+Furthermore, this directory compiles projects regarding Data Science & Analytics, Econometrics Analyses, and Data Visualization
 Author utilizes some applications in this folder as follows:
 
 Data Science & Analytics, Econometrics and Data Visualization:
