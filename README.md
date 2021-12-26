@@ -1,6 +1,6 @@
 # Projects
-This folder is dedicated to showing and storing author's projects. 
-Furthermore, this directory compiles projects regarding Data Science & Analytics, Econometrics Analyses, and Data Visualization
+This repository is dedicated to showing and storing author's projects. 
+Furthermore, it compiles projects regarding Data Science & Analytics, Econometrics Analyses, and Data Visualization
 Author utilizes some applications in this folder as follows:
 
 Data Science & Analytics, Econometrics and Data Visualization:
@@ -13,7 +13,7 @@ Databases:
 - DataGrip 2021
 
 # [Anime List](https://github.com/madisuryapr/Projects/tree/main/Anime%20List)
-PostgreSQL Project. In this project, author compiles 150 random anime series in which encompasses period of 2018 to 2021.
+PostgreSQL Project. In this directory, author compiles 150 random anime series in which encompasses period of 2018 to 2021.
 Each year consists of four consecutive seasons, namely Winter, Spring, Summer, and Fall. Author compiled 8-10 anime series for each season.
 In addition, author created an unique Anime ID number to represent the anime series. For example:
 -  20210307041201 for RE-MAIN Anime Series. The representation are as follows:
