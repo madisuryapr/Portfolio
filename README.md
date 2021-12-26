@@ -28,7 +28,7 @@ In addition, author created an unique Anime ID number to represent the anime ser
 
 Therefore, this Anime ID indicates that RE-MAIN is released in Summer 2021 on July 04, where it has 12 Episodes in total and only 1 anime season.
 
-# [ADF Structural Break Test With GAUSS Light 21](https://github.com/madisuryapr/Projects/tree/main/ADF%20Structural%20Break%20Test%20with%20GAUSS%20Light%2021)
+# [ADF Structural Break Test with GAUSS Light 21](https://github.com/madisuryapr/Projects/tree/main/ADF%20Structural%20Break%20Test%20with%20GAUSS%20Light%2021)
 This directory objective is to examine the structural breaks within Indonesia's noncash payment systems dataset. By Utilizing GAUSS Light 21, the author conduct Structural Breaks Tests with ADF Approach. There are 2 (two) main literature incorporated in this test:
 
 **1. Zivot and Andrews (1992) Structural Break Test**
