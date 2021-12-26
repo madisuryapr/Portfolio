@@ -37,9 +37,7 @@ This test assumes that one-endogenous break occurs within time-series data. Ther
 - Model 1: One Break occurs in Level only, and
 - Model 2: One Break occurs in both Level and Trend.
 
-Furthermore, this structural break test hypothizes the null as "Non-stationary process (Unit Root) within data", whereas alternative as
-"Stationary process with one break within data".
-Details regarding the model and estimation can be obtained in:
+Details regarding test construction can be obtained in:
 
 [Zivot, E., & Andrews, D.W.K. (1992). Further evidence on the great crash, the oil-price shock, and the unit-root hypothesis. _Journal of Business & Economic Statistics_, 10(3), 251-270.](https://www.jstor.org/stable/1391541)
 
@@ -49,9 +47,7 @@ This test assumes that two-endogenous break occurs within time-series data. Two 
 - Model 1: Two Breaks occur in Level only, and
 - Model 2: Two Breaks occur in both Level and Trend.
 
-Additionally, this structural break test hypothizes the null as "Non-stationary process (Unit Root) with two breaks within data", whereas alternative as
-"Stationary process with two breaks within data".
-Details regarding the model and estimation can be obtained in:
+For more details and information regarding test construction, see journals below:
 
 [Narayan, P.K., & Popp, S. (2010). A new unit root test with two structural breaks in level and slope at unknown time. _Journal of Applied Statistics_, 37(9), 1425-1438.](https://www.tandfonline.com/doi/abs/10.1080/02664760903039883)
 
