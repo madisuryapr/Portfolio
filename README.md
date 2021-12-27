@@ -39,18 +39,8 @@ This test assumes that one-endogenous break occurs within time-series data. Ther
 - Model 1: One Break occurs in Level only, and
 - Model 2: One Break occurs in both Level and Trend.
 
-Details regarding test construction can be obtained in:
-
-[Zivot, E., & Andrews, D.W.K. (1992). Further evidence on the great crash, the oil-price shock, and the unit-root hypothesis. _Journal of Business & Economic Statistics_, 10(3), 251-270.](https://www.jstor.org/stable/1391541)
-
 **2. Narayan and Popp (2010) Structural Break Test**
 
-This test assumes that two-endogenous break occurs within time-series data. Two different models are deployed within this test, namely:
+This test allows two-endogenous break occurs within time-series data. Two different models are deployed within this test, namely:
 - Model 1: Two Breaks occur in Level only, and
 - Model 2: Two Breaks occur in both Level and Trend.
-
-For more details and information regarding test construction, see journals below:
-
-[Narayan, P.K., & Popp, S. (2010). A new unit root test with two structural breaks in level and slope at unknown time. _Journal of Applied Statistics_, 37(9), 1425-1438.](https://www.tandfonline.com/doi/abs/10.1080/02664760903039883)
-
-[Narayan, P.K., & Popp, S. (2013). Size and power properties of structural break unit root tests. _Applied Economics_, 45(6), 721-728.](https://www.tandfonline.com/doi/abs/10.1080/00036846.2011.610752)
