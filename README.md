@@ -1,7 +1,7 @@
-# Projects
-This repository is dedicated to showing and storing author's projects. 
-Furthermore, it compiles projects regarding Data Science & Analytics, Econometrics Analyses, and Data Visualization
-Author utilizes some applications in this folder as follows:
+# Portfolio
+This repository is dedicated to showing and storing author's portfolios. 
+Furthermore, it compiles Data Science & Analytics, Econometrics Analyses, and Data Visualization portfolios
+Author utilizes some applications in this repository as follows:
 
 Data Science & Analytics, Econometrics and Data Visualization:
 - Python (PyCharm)
@@ -9,7 +9,8 @@ Data Science & Analytics, Econometrics and Data Visualization:
 - Jupyter Notebook
 
 Databases:
-- SQL / PostgreSQL 13
+- PostgreSQL
+- PgAdmin 4
 - DataGrip 2021
 
 # [Anime List](https://github.com/madisuryapr/Projects/tree/main/Anime%20List)
