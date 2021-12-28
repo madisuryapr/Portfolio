@@ -31,8 +31,11 @@ Therefore, this Anime ID indicates that RE-MAIN is released in Summer 2021 on Ju
 
 # [ADF Structural Break Test with GAUSS Light 21](https://github.com/madisuryapr/Projects/tree/main/ADF%20Structural%20Break%20Test%20with%20GAUSS%20Light%2021)
 
-### Introduction
-It is prominent to note that unit root hypothesis promotes both theoretical and empirical implications for economic theory and modeling. Furthermore, ignoring structural break within time-series dataset would lead to false acceptance of null hypothesis of unit root and test statistics could be misleading.This directory objective is to examine the structural breaks within Indonesia's noncash payment systems dataset. By Utilizing GAUSS Light 21, this project conducted Structural Breaks Tests with ADF Approach. There are 2 (two) main literature incorporated in this test:
+## Introduction
+It is prominent to note that unit root hypothesis promotes both theoretical and empirical implications for economic theory and modeling. Furthermore, ignoring structural break within time-series dataset would lead to false acceptance of null hypothesis of unit root and test statistics could be misleading.This directory objective is to examine the structural breaks within Indonesia's noncash payment systems dataset.
+
+### Methods in Utilizing ADF Structural Breaks Test
+By Utilizing GAUSS Light 21, this project conducted Structural Breaks Tests with ADF Approach. There are 2 (two) main literature incorporated in this test:
 
 **1. Zivot and Andrews (1992) Structural Break Test**
 
