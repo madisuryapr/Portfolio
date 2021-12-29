@@ -28,6 +28,7 @@ In addition, author created an unique Anime ID number to represent the anime ser
 3. 1201: Number of Episodes and Seasons of anime itself.
 
 Therefore, this Anime ID indicates that RE-MAIN is released in Summer 2021 on July 04, where it has 12 Episodes in total and only 1 anime season.
+all data are obtained from https://myanimelist.net/
 
 # [ADF Structural Break Test with GAUSS Light 21](https://github.com/madisuryapr/Projects/tree/main/ADF%20Structural%20Break%20Test%20with%20GAUSS%20Light%2021)
 
