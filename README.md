@@ -36,16 +36,4 @@ all data are obtained from https://myanimelist.net/
 It is prominent to note that unit root hypothesis promotes both theoretical and empirical implications for economic theory and modeling. Furthermore, ignoring structural break within time-series dataset would lead to false acceptance of null hypothesis of unit root and test statistics could be misleading.This directory objective is to examine the structural breaks within Indonesia's noncash payment systems dataset.
 
 ### Methods in Utilizing ADF Structural Breaks Test
-By Utilizing GAUSS Light 21, this project conducted Structural Breaks Tests with ADF Approach. There are 2 (two) main literature incorporated in this test:
-
-**1. Zivot and Andrews (1992) Structural Break Test**
-
-This test assumes that one-endogenous break occurs within time-series data. There are two different models within this test:
-- Model 1: One Break occurs in Level only, and
-- Model 2: One Break occurs in both Level and Trend.
-
-**2. Narayan and Popp (2010) Structural Break Test**
-
-This test allows two-endogenous break occurs within time-series data. Two different models are deployed within this test, namely:
-- Model 1: Two Breaks occur in Level only, and
-- Model 2: Two Breaks occur in both Level and Trend.
+By Utilizing GAUSS Light 21, this project conducted Structural Break Tests with ADF Approach. There are 2 main literature incorporated within this test, namely Zivot and Andrews (ZA, 1992) One-endogenous and Narayan and Popp (NP, 2010) Two-endogenous structural break tests. Furthermore, these structural break tests consist of 2 distinct models, i.e. (1) One/Two Breaks occur in level of trending data, and (2) One/Two Breaks occur in both level and trend of trending data.
