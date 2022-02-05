@@ -1,4 +1,5 @@
-/* CASE Statement */
+                  /********** CASE Statement **********/
+                  
 /* To determine whether an anime is recommended, good, or not recommended
    We can utilize CASE statement by employing certain criteria.
  */
