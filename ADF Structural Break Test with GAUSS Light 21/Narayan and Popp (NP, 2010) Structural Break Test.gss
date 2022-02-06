@@ -1,11 +1,11 @@
                     /*********** Narayan and Popp (2010) Two-Endogenous Structural Break Test ***********/
 
-/* This Syntax is dedicated to testing structural break of 
-    Year over Year (YoY) data for Indonesia's Noncash Payment Systems, 
+/* In this file, we perform structural break test 
+    for Indonesia Noncash Payment Systems Year over Year (YoY) growth dataset, 
     over the Period January 2010 to March 2021.
-    The data is obtained from Bank Indonesia Payment Systems Statistic */
+    The data is obtained from Bank Indonesia */
 
-/* The author employs Narayan and Popp (2010) Two-Endogenous Structural Break Test, 
+/* Employ Narayan and Popp (2010) Two-Endogenous Structural Break Test, 
     in which captures two structural break, either in level or level and trend.
     The Hypotheses are as follows:
     H0: Non-stationary process (Unit Root) of data with two structural breaks
