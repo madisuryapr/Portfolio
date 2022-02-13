@@ -24,6 +24,15 @@ SELECT anime_id, release_date, anime_title, rating, season FROM anime_list
         GROUP BY anime_id, release_date, anime_title, rating, season 
         HAVING rating = MAX(Rating) ORDER BY rating DESC LIMIT 20;
 
+/* As January 2022, we notice that one of Fall anime series, named
+   Komi-san wa, Communication Shougai Desu has been updated in regards to its
+   information. Hence, we should also perform update its data on this query
+   bu Utilizing UPDATE clause to its anime_id and episode
+   */
+UPDATE anime_list SET anime_id = 20210410071201,
+        total_episode = '12'
+WHERE anime_title = 'Komi-san wa, Communication Shougai desu';
+
 /* Present 10 Highest Rating Anime for Each Season */
 SELECT anime_id, release_date, anime_title, rating FROM anime_list WHERE Season = 'Winter'
         GROUP BY anime_id, release_date, anime_title, rating HAVING rating = MAX(rating)
