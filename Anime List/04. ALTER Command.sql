@@ -14,7 +14,7 @@ ALTER TABLE anime_list
 /* Add two additional columns */
 ALTER TABLE anime_list
     ADD genre_1 varchar(50),
-    ADD  genre_2 varchar(50);
+    ADD genre_2 varchar(50);
 
 /* Update Table by Setting two different genres and inserting them to the columns */
 UPDATE anime_list SET genre_1 = 'Drama', genre_2 = 'Slice of Life'  WHERE anime_id = '20210410070001';
