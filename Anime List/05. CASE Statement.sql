@@ -56,18 +56,18 @@ WHERE al.season = 'Winter'
 ORDER BY al.rating DESC;
 
 /* Case Statement for anime series in Spring Season */
-SELECT anime_list.anime_title, anime_list.release_date,
-       anime_list.season, anime_list.rating,
-       anime_list.total_episode, anime_list.contributor,
+SELECT al.anime_title, al.release_date,
+       al.season, al.rating,
+       al.total_episode, al.contributor,
 CASE
-    WHEN anime_list.rating >= 8.0 THEN 'Recommended Anime'
-    WHEN 7.0 <= anime_list.rating AND
-         anime_list.rating < 8.0 THEN 'Good Anime'
+    WHEN al.rating >= 8.0 THEN 'Recommended Anime'
+    WHEN 7.0 <= al.rating AND
+         al.rating < 8.0 THEN 'Good Anime'
     ELSE 'Not Recommended Anime'
 END AS anime_category
-    FROM anime_list
-WHERE anime_list.season = 'Spring'
-ORDER BY anime_list.rating DESC;
+    FROM anime_list al
+WHERE al.season = 'Spring'
+ORDER BY al.rating DESC;
 
 /* Case Statement for anime series in Summer Season */
 SELECT anime_list.anime_title, anime_list.release_date,
